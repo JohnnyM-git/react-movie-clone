@@ -1,0 +1,26 @@
+.searchbar {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+.searchbar__form{
+    display: flex;
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+}
+.searchbar__input{
+    width: 100%;
+    height: 36px;
+    border: 2px solid #00B0FF;
+    border-radius: 999px;
+}
+
+.search__button {
+    position: absolute;
+    top: 0;
+    right: 30px;
+    min-width: 8px !important;
+    padding: 0 !important;
+    margin: 0 !important;
+}

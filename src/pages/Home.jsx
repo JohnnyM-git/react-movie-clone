@@ -1,5 +1,6 @@
 import React from "react";
 import Nav from "../components/Nav";
+import Search from "../components/Search";
 import "./Home.css";
 
 function Home() {
@@ -14,6 +15,10 @@ function Home() {
                   <span className="blue">Streamify</span> the world best site
                   for streaming <span className="blue">Movies</span>
                 </h1>
+
+              </div>
+              <div className="search">
+                <Search />
               </div>
             </div>
           </div>
