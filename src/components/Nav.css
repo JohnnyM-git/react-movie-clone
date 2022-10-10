@@ -1,0 +1,33 @@
+.nav {
+    display: flex;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #00B0FF;
+}
+.nav__right {
+    display: flex;
+    align-items: center;
+}
+.nav__logo{
+    margin: 12px;
+}
+.nav__logo > img {
+  object-fit: contain;
+  height: 70px;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #242424;
+  padding-right: 12px;
+  font-size: 16;
+}
+
+.nav__links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
