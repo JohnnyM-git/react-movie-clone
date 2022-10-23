@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Nav from "./components/Nav";
 import Results from "./pages/Results";
+import MovieInfo from "./components/MovieInfo";
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/:term" element={<Results />} />
+          <Route path="/result/:term" element={<Results />} />
+          <Route path=":imdbID" element={<MovieInfo />} />
         </Routes>
       </div>
     </Router>

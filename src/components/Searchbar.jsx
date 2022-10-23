@@ -14,10 +14,11 @@ function Searchbar({ fetchMovies, }) {
 
   const searchMovies = (e) => {
     e.preventDefault();
-    navigate(`/${searchTerm}`)
+    navigate(`/result/${searchTerm}`)
     console.log(searchTerm);
     fetchMovies()
     console.log(movies)
+    window.location.reload();
   }
 
   async function fetchMovies() {

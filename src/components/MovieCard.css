@@ -1,0 +1,27 @@
+.movie__container {
+    display: flex;
+    justify-content: center;
+    /* padding: 0 24px; */
+    margin: 0 auto;
+}
+.movie__poster {
+    display: flex;
+    justify-content: center;
+    /* object-fit: contain; */
+    /* width: 100%; */
+    align-items: center;
+    margin: 0 auto;
+}
+.poster__img {
+    /* object-fit: contain; */
+    /* width: 100%; */
+}
+.movie__card {
+    width: 100%;
+    padding: 12px;
+    overflow-wrap: break-word;
+}
+.movie__card--title {
+    display: flex;
+    text-align: center !important;
+}

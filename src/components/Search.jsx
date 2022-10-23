@@ -1,5 +1,5 @@
 import React from 'react'
-import './Search.jsx'
+import './Search.css'
 import Searchbar from './Searchbar.jsx'
 
 function Search() {

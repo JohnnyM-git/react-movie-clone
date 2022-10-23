@@ -31,3 +31,9 @@
     list-style: none;
     align-items: center;
 }
+
+@media (max-width: 450px) {
+    .nav__links{
+        display: none;
+    }
+}
